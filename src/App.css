@@ -1,0 +1,30 @@
+.cover {
+  background-size: cover;
+  color: beige;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  border-radius: 0;
+}
